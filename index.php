@@ -45,10 +45,12 @@
         <header>
             <nav>
                 <div class="row">
+                    <img src="resources/img/logo-sqaure-format-transparent.PNG" alt="Omnifood logo" class="logo">
+                    <img src="resources/img/logo-sqaure-format-transparent.PNG" alt="Omnifood logo" class="logo-black">
                     <ul class="main-nav js--main-nav">
-                        <li><a href="#features">Projects</a></li>
-                        <li><a href="#works">Skills</a></li>
-                        <li><a href="#cities">About</a></li>
+                        <li><a href="#features">About</a></li>
+                        <li><a href="#works">Projects</a></li>
+                        <li><a href="#cities">Skills</a></li>
                         <li><a href="#form">Contact</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
@@ -101,7 +103,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen js--wp-2">
+                    <img src="resources/img/app-android-phone.PNG" alt="The Cook King app on Android" class="app-screen js--wp-2">
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step">
@@ -117,12 +119,38 @@
                         <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                     </div>
                     <div class="app-buttons">
-                        <a href="#" class="btn-app"><img src="resources/img/appStoreDownload.png" alt="App Store Button"></a>
-                        <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.jaxfire.the_cook_king.free" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <section class="section-testimonials">
+            <div class="row">
+                <h2>Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite><img src="resources/img/customer-1.jpg" alt="Customer: Alberto">Alberto Duncan</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                        <cite><img src="resources/img/customer-2.jpg" alt="Customer: Joana">Joana Silva</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                        <cite><img src="resources/img/customer-3.jpg" alt="Customer: Milton">Milton Chapman</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
         <section class="section-cities" id="cities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
@@ -194,31 +222,6 @@
                 </div>
             </div>
         </section>
-        <section class="section-testimonials">
-            <div class="row">
-                <h2>Our customers can't live without us</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="resources/img/customer-1.jpg" alt="Customer: Alberto">Alberto Duncan</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg" alt="Customer: Joana">Joana Silva</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="resources/img/customer-3.jpg" alt="Customer: Milton">Milton Chapman</cite>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
 
         <section class="section-form" id="form">
             <div class="row">
@@ -278,6 +281,8 @@
                 </form>
             </div>
         </section>
+        
+        
         
         <footer>
             <div class="row">
